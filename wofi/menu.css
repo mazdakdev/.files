@@ -1,0 +1,5 @@
+@import ".config/wofi/style.css";
+window {
+	font-family: "Torus SemiBold";
+	font-size: 13px;
+}
