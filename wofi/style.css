@@ -1,8 +1,10 @@
+@import url(".cache/wal/colors-waybar.css");
+
 window {
     margin: 5px;
     border-radius: 5px;
     font-family: 'Fira Code', "Symbols Nerd Font Mono";
-    background-color: #11111B;
+    background-color: @color0;
     border-radius: 20px;
 }
 
@@ -12,14 +14,14 @@ window {
 
 #input {
     margin: 5px;
-    background-color: #222233;
+    background-color: @color0;
     border-radius: 5px;
 }
 
 #inner-box {
     margin: 0px;
     border-radius: 5px;
-    background-color: #222233;
+    background-color: @color0;
 }
 
 #scroll {
@@ -39,6 +41,6 @@ window {
 
 
 #entry:selected {
-    background-color: #11111B;
+    background-color: @color9;
     outline: none;
 }
