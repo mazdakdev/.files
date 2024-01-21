@@ -4,7 +4,7 @@ window {
     margin: 5px;
     border-radius: 5px;
     font-family: 'Fira Code', "Symbols Nerd Font Mono";
-    background-color: @color0;
+    background-color: @background;
     border-radius: 20px;
 }
 
@@ -14,14 +14,14 @@ window {
 
 #input {
     margin: 5px;
-    background-color: @color0;
+    background-color: @background;
     border-radius: 5px;
 }
 
 #inner-box {
     margin: 0px;
     border-radius: 5px;
-    background-color: @color0;
+    background-color: @background;
 }
 
 #scroll {
@@ -32,6 +32,7 @@ window {
 #text {
     margin: 2px;
     border: none;
+    color: @color15;
 }i
 
 #entry {
@@ -41,6 +42,6 @@ window {
 
 
 #entry:selected {
-    background-color: @color9;
+    background-color: @color13;
     outline: none;
 }

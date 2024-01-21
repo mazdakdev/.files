@@ -2,7 +2,7 @@
 
 * {
   border: none;
-  font-family: 'Fira Code', 'Symbols Nerd Font Mono';
+  font-family: 'Fira Code Semi Bold', 'Symbols Nerd Font';
   font-size: 14px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
   min-height: 25px;
@@ -14,7 +14,7 @@ window#waybar {
 
 #custom-arch, #workspaces {
   border-radius: 10px;
-  background-color: @color0;
+  background-color: @background;
   margin-top: 15px;
   margin-right: 15px;
   padding-top: 1px;
@@ -25,18 +25,18 @@ window#waybar {
 #custom-arch {
   font-size: 20px;
   margin-left: 15px;
-  color: @color7;
+  color: @color15;
 }
 
 #workspaces button {
-  background: @color0;
-  color: @color8;
+  background: @background;
+  color: @color15;
 }
 
 #clock, #backlight, #pulseaudio, #bluetooth, #network, #battery{
   border-radius: 10px;
-  background-color: @color0;
-  color: @color8;
+  background-color: @background;
+  color: @color15;
   margin-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
