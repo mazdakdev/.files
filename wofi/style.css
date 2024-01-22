@@ -15,6 +15,7 @@ window {
 #input {
     margin: 5px;
     background-color: @background;
+    color: @color15;
     border-radius: 5px;
 }
 
