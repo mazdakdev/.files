@@ -43,6 +43,5 @@ window {
 
 
 #entry:selected {
-    background-color: @color13;
     outline: none;
 }
