@@ -6,7 +6,7 @@
     "custom/arch": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+      "on-click": "wofi"
     },
     "hyprland/workspaces": {
       "format": "{name}",
@@ -44,7 +44,7 @@
       "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
     },
     "network": {
-      "interface": "wlo1",
+      "interface": "wlp1s0f0",
       "format": "{ifname}",
       "format-wifi": "<span> </span>{essid}",
       "format-ethernet": "{ipaddr}/{cidr} ",
