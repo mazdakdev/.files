@@ -34,14 +34,14 @@ window {
     margin: 2px;
     border: none;
     color: @color15;
-}i
+}
 
 #entry {
     border: none;
     border-radius: 5px;
+    color: red;
 }
 
 
 #entry:selected {
-    outline: none;
-}
+    color: @background;}
