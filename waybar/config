@@ -9,17 +9,20 @@
       "on-click": "wofi"
     },
     "hyprland/workspaces": {
-      "format": "{name}",
       "format": "{icon}",
       "tooltip": false,
+      "active-only": false,
       "all-outputs": true,
       "format-icons": {
         "active": "",
         "default": ""
-      }
+      },
+      "persistent-workspaces": {
+             "*": 3,
+	}
     },
     "clock": {
-      "format": "<span> </span>{:%H:%M}",
+      "format": "<span> </span> {:%H:%M}",
     },
     "backlight": {
       "device": "intel_backlight",
